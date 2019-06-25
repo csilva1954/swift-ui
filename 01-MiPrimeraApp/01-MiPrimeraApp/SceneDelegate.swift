@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use a UIHostingController as window root view controller
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = UIHostingController(rootView: DriversList())
-        window.tintColor = .lightText
+        window.tintColor = .black
         self.window = window
         window.makeKeyAndVisible()
     }

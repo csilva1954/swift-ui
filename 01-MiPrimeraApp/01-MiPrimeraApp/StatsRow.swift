@@ -37,7 +37,7 @@ struct StatsRow : View {
 #if DEBUG
 struct StatsRow_Previews : PreviewProvider {
     static var previews: some View {
-        StatsRow(statKey: "Sueldo", statValue: "20.000$")
+        StatsRow(statKey: "Parámetro", statValue: "99")
     }
 }
 #endif
